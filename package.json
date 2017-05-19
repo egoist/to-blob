@@ -1,0 +1,24 @@
+{
+  "name": "to-blob",
+  "version": "0.0.0",
+  "description": "canvas.toBlob polyfill",
+  "repository": {
+    "url": "egoist/to-blob",
+    "type": "git"
+  },
+  "main": "to-blob.js",
+  "files": [
+    "*.js",
+    "*.map"
+  ],
+  "scripts": {
+    "test": "echo 'no tests!' && npm run build",
+    "build": "squash to-blob.js -o to-blob.min.js --check -m"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "butternut": "^0.4.6"
+  }
+}
